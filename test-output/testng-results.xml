@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="838" started-at="2020-05-20T10:46:28 IST" finished-at="2020-05-20T10:46:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="838" started-at="2020-05-20T10:46:28 IST" finished-at="2020-05-20T10:46:28 IST">
+      <class name="dynamicDataReading">
+        <test-method status="PASS" signature="data(java.util.Hashtable)[pri:0, instance:dynamicDataReading@1f28c152]" name="data" duration-ms="12" started-at="2020-05-20T10:46:28 IST" data-provider="getData" finished-at="2020-05-20T10:46:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=A3, Col2=A2, Col1=A1, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="data(java.util.Hashtable)[pri:0, instance:dynamicDataReading@1f28c152]" name="data" duration-ms="2" started-at="2020-05-20T10:46:28 IST" data-provider="getData" finished-at="2020-05-20T10:46:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=A6, Col2=A5, Col1=A4, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method status="PASS" signature="data(java.util.Hashtable)[pri:0, instance:dynamicDataReading@1f28c152]" name="data" duration-ms="1" started-at="2020-05-20T10:46:28 IST" data-provider="getData" finished-at="2020-05-20T10:46:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col3=A9, Col2=A8, Col1=A7, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+      </class> <!-- dynamicDataReading -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
